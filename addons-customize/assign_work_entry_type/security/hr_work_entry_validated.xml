@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<odoo>
+    <data noupdate="1">
+
+        <record id="hr_payroll.hr_work_entry_validated" model="ir.rule">
+            <field name="active">False</field>
+        </record>
+
+    </data>
+
+</odoo>

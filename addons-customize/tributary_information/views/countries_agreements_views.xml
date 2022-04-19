@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="countries_agreements_form_view" model="ir.ui.view">
+        <field name="name">countries.agreements.form.view</field>
+        <field name="model">countries.agreements</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="code"/>
+                        <field name="name"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="countries_agreements_tree_view" model="ir.ui.view">
+        <field name="name">countries.agreements.tree.view</field>
+        <field name="model">countries.agreements</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="name"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_countries_agreements" model="ir.actions.act_window">
+        <field name="name">[25] Convenios tributarios</field>
+        <field name="res_model">countries.agreements</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_hr_localization_pension_system"
+              name="[25] Convenios tributarios"
+              parent="localization_menu.menu_hr_information_plame"
+              action="action_countries_agreements"
+              sequence="25"
+    />
+
+</odoo>

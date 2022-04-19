@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="assets_backend_inherit_purchase_document_type_validation" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            <link rel="stylesheet" href="/purchase_document_type_validation/static/src/css/classes.css"/>
+        </xpath>
+    </template>
+
+</odoo>

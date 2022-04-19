@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<odoo>
+    <data noupdate="1">
+
+        <!--"countries.agreements"-->
+
+        <record id="countries_agreements_0" model="countries.agreements">
+            <field name="name">NINGUNO</field>
+            <field name="code">0</field>
+        </record>
+
+        <record id="countries_agreements_1" model="countries.agreements">
+            <field name="name">CANADA</field>
+            <field name="code">1</field>
+        </record>
+
+        <record id="countries_agreements_2" model="countries.agreements">
+            <field name="name">CHILE</field>
+            <field name="code">2</field>
+        </record>
+
+        <record id="countries_agreements_3" model="countries.agreements">
+            <field name="name">CAN</field>
+            <field name="code">3</field>
+        </record>
+
+        <record id="countries_agreements_4" model="countries.agreements">
+            <field name="name">BRASIL</field>
+            <field name="code">4</field>
+        </record>
+
+    </data>
+</odoo>

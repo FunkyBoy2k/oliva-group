@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="hr_contract_form_view_inherit_tributary_information" model="ir.ui.view">
+        <field name="name">hr.contract.form.view.inherit.tributary_information</field>
+        <field name="model">hr.contract</field>
+        <field name="inherit_id" ref="hr_contract.hr_contract_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group/group/field[@name='hr_responsible_id']" position="before">
+                <field name="countries_agreements_id"/>
+                <field name="is_fifth_income"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

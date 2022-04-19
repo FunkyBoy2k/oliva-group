@@ -1,0 +1,137 @@
+.print-container-stock-classic-header {
+    width: 100%;
+    height: 160px;
+    color: black;
+    padding: 5px 1px 5px 1px;
+
+}
+
+.table-print-stock-classic-header {
+    margin-top: 5px;
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+.table-print-stock-classic-header thead th:nth-child(1) {
+    width: 25%;
+}
+
+.table-print-stock-classic-header thead th:nth-child(2) {
+    width: 40%;
+}
+
+.table-print-stock-classic-header thead th:nth-child(3) {
+    width: 35%;
+}
+
+.print-container-stock-classic-header .logo {
+    width: 100%;
+    height: auto;
+
+}
+
+.print-container-stock-classic-header .info {
+    display: block;
+    margin-top: 15px;
+    vertical-align: bottom;
+    width: 95%;
+}
+
+.print-container-stock-classic-header .ruc {
+    margin-top: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    vertical-align: bottom;
+    height: 150px;
+}
+
+.print-container-stock-classic-header .ruc .ruc_info {
+    margin-top: 12px;
+    margin-bottom: 21px;
+
+}
+
+.table-container-stock-classic-header-client-1 {
+    width: 100%;
+    /*height: 150px;*/
+    margin-top: 15px;
+    color: black;
+    padding: 5px 5px 5px 5px;
+}
+
+.table-stock-classic-header-client-1 {
+    margin-top: 5px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-stock-classic-header-client-1 thead th:nth-child(1) {
+    width: 17%;
+}
+
+.table-stock-classic-header-client-1 thead th:nth-child(2) {
+    width: 43%;
+}
+
+.table-stock-classic-header-client-1 thead th:nth-child(3) {
+    width: 25%;
+}
+
+.table-stock-classic-header-client-1 thead th:nth-child(4) {
+    width: 15%;
+}
+
+
+.table-container-stock-classic-header-client-2 {
+    width: 100%;
+    margin-top: 5px;
+    color: black;
+    padding: 5px 5px 5px 5px;
+}
+
+.table-stock-classic-header-client-2 {
+    margin-top: 5px;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table-stock-classic-header-client-2 thead th:nth-child(1) {
+    width: 17%;
+}
+
+.table-stock-classic-header-client-2 thead th:nth-child(2) {
+    width: 83%;
+}
+
+.container-table-stock-classic-footer {
+    width: 60%;
+    float: left;
+}
+
+.table-stock-classic-footer {
+    margin-top: 5px;
+    table-layout: fixed;
+    width: 80%;
+}
+
+.table-stock-classic-footer thead th:nth-child(1) {
+    width: 40%;
+}
+
+.table-stock-classic-footer thead th:nth-child(2) {
+    width: 60%;
+}
+
+.image_qr_code_stock_classic {
+
+    text-align: center;
+    width: 35%;
+    float: right;
+}
+
+.space {
+    height: 110px;
+}

@@ -1,0 +1,4 @@
+<odoo>
+    <menuitem name="PLE" id="menu_ple_report" groups="account.group_account_user,account.group_account_manager" web_icon="dv_l10n_pe_sunat_ple,static/description/icon.png"/>
+    <menuitem id="ple_history_menu_categ" name="Registros PLE" parent="menu_ple_report" sequence="1"/>
+</odoo>

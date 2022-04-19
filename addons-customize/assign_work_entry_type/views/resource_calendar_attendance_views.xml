@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="resource_calendar_attendance_tree_view_inherit_assign_work_entry_type" model="ir.ui.view">
+        <field name="name">resource.calendar.attendance.tree.view.inherit.assign_work_entry_type</field>
+        <field name="model">resource.calendar.attendance</field>
+        <field name="inherit_id" ref="resource.view_resource_calendar_attendance_tree"/>
+        <field name="arch" type="xml">
+            <field name="hour_to" position="after">
+                <field name="work_entry_type_id"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>
